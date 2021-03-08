@@ -1,0 +1,48 @@
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(./images/bg-desktop.svg);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.logo {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.container_bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container_right {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.reg_button {
+    padding: 20px 75px;
+    border-radius: 25px;
+    border-color: white;
+    background-color: white;
+    color: hsl(300, 69%, 71%);
+    text-align: center;
+}
+
+.social_media {
+    display: flex; 
+}
+
+.push {
+ margin-left: auto;
+}
+
+.space {
+    padding: 3px;
+}
